@@ -1,0 +1,80 @@
+﻿/* http://xcellerant.net/2013/12/30/resizing-a-bootstrap-3-modal/ */
+#divModalUpdateDetail .modal-dialog {
+	width: 85%;
+}
+
+#divModalItemDetail .modal-dialog {
+	width: 95%;
+}
+
+body {
+	font-family: 'Source Sans Pro', 'Segoe UI', 'Liberation Sans', sans-serif;
+	padding: 20px;
+	font-size: 10pt;
+}
+
+
+#tableIssues {
+	border-collapse: separate;
+	border-spacing: 2px;
+	table-layout: fixed;
+	word-wrap: break-all;
+}
+
+/* http://www.colourlovers.com/palette/585665/dreams. */
+.issueOpen           { background-color:  rgb(255,204,204); }
+.issueOpen:hover     { background-color: rgba(255,204,204,0.5); }
+.issueContinue       { background-color:  rgb(252,255,217); }
+.issueContinue:hover { background-color: rgba(252,255,217,0.5); }
+.issueClose          { background-color:  rgb(196,242,200); }
+.issueClose:hover    { background-color: rgba(196,242,200,0.5); }
+.issueNotHere        { background-color:  rgb(225,225,225); }
+.issueNotHere:hover  { background-color: rgba(225,225,225,0.5); }
+
+/* http://perishablepress.com/wrapping-content/ */
+.forceWrap {
+	white-space: pre;           /* CSS 2.0 */
+	white-space: pre-wrap;      /* CSS 2.1 */
+	white-space: pre-line;      /* CSS 3.0 */
+	white-space: -pre-wrap;     /* Opera 4-6 */
+	white-space: -o-pre-wrap;   /* Opera 7 */
+	white-space: -moz-pre-wrap; /* Mozilla */
+	white-space: -hp-pre-wrap;  /* HP Printers */
+	word-wrap: break-word;      /* IE 5+ */
+}
+
+.tdIssues { background-color: rgb(245,245,245); }
+.tdIssues a { padding-right: 10px; }
+.issueOpen, .issueContinue, .issueClose, .issueNotHere { text-align: center; }
+.issueOpen, .issueContinue, .issueClose, .issueNotHere, .tdIssues, .thHeaderDate, .thHeaderDateToday {
+	color: black;
+	margin: 1px;
+	padding: 4px;
+	border-radius: 2px;
+}
+
+.issueOpen a, .issueContinue a, .issueClose a, .issueNotHere a, .tdIssues a {
+	color: rgba(0,0,0,0.85);
+	display: block;
+	width: 100%;
+}
+
+.issueOpen a:hover, .issueContinue a:hover, .issueClose a:hover, .issueNotHere a:hover {
+	text-decoration: none;
+}
+
+.thHeaderDate {
+	background-color: rgba(0,101,189,0.5);
+}
+
+.thHeaderDate, .thHeaderDateToday {
+	font-weight: normal;
+	font-size: 8pt;
+	text-align: center;
+	vertical-align: middle;
+	width: 2px;
+}
+
+.thHeaderDateToday {
+	background-color: rgba(255,0,0,0.5);
+}
