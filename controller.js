@@ -175,7 +175,7 @@ function showModalUpdateDetail() {
 	document.getElementById("mudDescription").value = "";
 	document.getElementById("mudDescription").focus();
 	document.getElementById("mudTypeContinue").checked = true;
-	document.getElementById("mudTypeContinue").parentNode.className = document.getElementById("mudTypeContinue").parentNode.className + " active";\
+	document.getElementById("mudTypeContinue").parentNode.className = document.getElementById("mudTypeContinue").parentNode.className + " active";
 	document.getElementById("mudTypeOpened").checked = false;
 	document.getElementById("mudTypeOpened").parentNode.className = document.getElementById("mudTypeOpened").parentNode.className.replace(" active", "");
 	document.getElementById("mudTypeClosed").checked = false;
